@@ -136,6 +136,8 @@ Digital-Alarm-Clock-RTL
 This project is based on the **"Verilog HDL – Hands On"** course by **Maven Silicon**.
 Additional modifications and verification work, including **module-level testbenches and system-level integration**, were implemented independently.
 
+--- 
+ 
 Author
 
 Vishnu Vardhan

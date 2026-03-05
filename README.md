@@ -80,8 +80,27 @@ Waveforms are analyzed using **GTKWave**.
 ### Key Register Verification
 ![Key Register Waveform](waveform/keyreg_waveform.png)
 
+
 ---
 
+# 3️⃣ Add Design Flow Section (Looks Professional)
+
+Add this **before Simulation Flow**.
+
+```markdown
+---
+
+## Design Flow
+
+The digital alarm clock design follows a standard RTL design flow:
+
+1. RTL design using Verilog HDL  
+2. Module-level verification using dedicated testbenches  
+3. System-level integration using a top module  
+4. Functional simulation using Icarus Verilog  
+5. Waveform analysis using GTKWave
+---
+```
 ## Simulation Flow
 
 Simulation is performed using **Icarus Verilog**.

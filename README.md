@@ -83,3 +83,12 @@ vvp sim
 
 View Waveform
 gtkwave alarm_clock_top.vcd
+
+###
+Tools Used
+
+Verilog HDL
+
+Icarus Verilog
+
+GTKWave

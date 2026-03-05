@@ -87,11 +87,7 @@ vvp sim
 ```bash
 gtkwave alarm_clock_top.vcd
 ```
-###
-Tools Used
-
-Verilog HDL
-
-Icarus Verilog
-
-GTKWave
+## Tools Used
+-Verilog HDL
+-Icarus Verilog
+-GTKWave

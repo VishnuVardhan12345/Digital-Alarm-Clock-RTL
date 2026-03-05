@@ -90,6 +90,40 @@ gtkwave alarm_clock_top.vcd
 ---
 
 ## Tools Used
+
 -Verilog HDL
 -Icarus Verilog
 -GTKWave
+
+---
+
+## Project Structure
+Digital-Alarm-Clock-RTL
+│
+├── src
+│   ├── alarm_clock_top.v
+│   ├── timegen.v
+│   ├── counter.v
+│   ├── fsm.v
+│   ├── keyreg.v
+│   ├── alarm_reg.v
+│   ├── lcd_driver.v
+│   └── lcd_driver_4.v
+│
+├── testbench
+│   ├── timegen_tb.v
+│   ├── counter_tb.v
+│   ├── alarm_reg_tb.v
+│   ├── keyreg_tb.v
+│   ├── lcd_driver_tb.v
+│   ├── lcd_driver_4_tb.v
+│   ├── fsm_tb.v
+│   └── alarm_clock_top_tb.v
+│
+└── README.md
+
+--- 
+
+## Acknowledgement
+This project is based on the "Verilog HDL – Hands On" course by Maven Silicon.
+Additional modifications and verification work, including module-level testbenches and system-level integration, were implemented independently.

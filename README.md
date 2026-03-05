@@ -77,13 +77,16 @@ Simulation is performed using **Icarus Verilog**.
 
 ```bash
 iverilog -o sim *.v
-
-Run Simulation
+```
+### Run Simulation
+```bash
 vvp sim
+```
 
-View Waveform
+### View Waveform
+```bash
 gtkwave alarm_clock_top.vcd
-
+```
 ###
 Tools Used
 

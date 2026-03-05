@@ -78,26 +78,32 @@ Simulation is performed using **Icarus Verilog**.
 ```bash
 iverilog -o sim *.v
 ```
+
 ### Run Simulation
+
 ```bash
 vvp sim
 ```
 
 ### View Waveform
+
 ```bash
 gtkwave alarm_clock_top.vcd
 ```
+
 ---
 
 ## Tools Used
 
--Verilog HDL
--Icarus Verilog
--GTKWave
+* Verilog HDL
+* Icarus Verilog
+* GTKWave
 
 ---
 
 ## Project Structure
+
+```
 Digital-Alarm-Clock-RTL
 │
 ├── src
@@ -121,9 +127,12 @@ Digital-Alarm-Clock-RTL
 │   └── alarm_clock_top_tb.v
 │
 └── README.md
+```
 
---- 
+---
 
 ## Acknowledgement
-This project is based on the "Verilog HDL – Hands On" course by Maven Silicon.
-Additional modifications and verification work, including module-level testbenches and system-level integration, were implemented independently.
+
+This project is based on the **"Verilog HDL – Hands On"** course by **Maven Silicon**.
+Additional modifications and verification work, including **module-level testbenches and system-level integration**, were implemented independently.
+

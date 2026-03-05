@@ -140,5 +140,5 @@ Additional modifications and verification work, including **module-level testben
 
 ## Author
 
-**Vishnu Vardhan**
+**Vishnu Vardhan**  
 Electronics and Communication Engineering (ECE)

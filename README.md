@@ -69,6 +69,19 @@ Waveforms are analyzed using **GTKWave**.
 
 ---
 
+## Simulation Waveforms
+
+### Top-Level System Verification
+![Top Level Waveform](waveform/alarm_clock_top_waveform.png)
+
+### FSM State Transition Verification
+![FSM Waveform](waveform/fsm_waveform.png)
+
+### Key Register Verification
+![Key Register Waveform](waveform/keyreg_waveform.png)
+
+---
+
 ## Simulation Flow
 
 Simulation is performed using **Icarus Verilog**.
@@ -126,6 +139,11 @@ Digital-Alarm-Clock-RTL
 │   ├── fsm_tb.v
 │   └── alarm_clock_top_tb.v
 │
+├── waveform
+│   ├── alarm_clock_top_waveform.png
+│   ├── fsm_waveform.png
+│   └── keyreg_waveform.png
+|
 └── README.md
 ```
 

@@ -83,13 +83,6 @@ Waveforms are analyzed using **GTKWave**.
 
 ---
 
-# 3️⃣ Add Design Flow Section (Looks Professional)
-
-Add this **before Simulation Flow**.
-
-```markdown
----
-
 ## Design Flow
 
 The digital alarm clock design follows a standard RTL design flow:
@@ -100,7 +93,7 @@ The digital alarm clock design follows a standard RTL design flow:
 4. Functional simulation using Icarus Verilog  
 5. Waveform analysis using GTKWave
 ---
-```
+
 ## Simulation Flow
 
 Simulation is performed using **Icarus Verilog**.

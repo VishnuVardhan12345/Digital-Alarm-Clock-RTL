@@ -154,7 +154,8 @@ Digital-Alarm-Clock-RTL
 ├── waveform
 │   ├── alarm_clock_top_waveform.png
 │   ├── fsm_waveform.png
-│   └── keyreg_waveform.png
+|   ├── keyreg_waveform.png
+│   └── rtl_schematic.pdf
 |
 └── README.md
 ```

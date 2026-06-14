@@ -116,6 +116,28 @@ vvp sim
 gtkwave alarm_clock_top.vcd
 ```
 
+## FPGA Implementation Results
+
+### Target Device
+
+* Xilinx Artix-7 (`xc7a35tcpg236-1L`)
+
+### Resource Utilization
+
+| Resource        | Utilization |
+| --------------- | ----------- |
+| LUTs            | 106         |
+| Flip-Flops (FF) | 75          |
+| BRAM            | 0           |
+| URAM            | 0           |
+| DSP             | 0           |
+
+The design occupies a small amount of FPGA resources, demonstrating an efficient RTL implementation suitable for low-cost FPGA devices.
+
+### Synthesis Summary
+
+![Synthesis Report](waveform/synthesis_summary.png)
+
 ---
 
 ## Tools Used

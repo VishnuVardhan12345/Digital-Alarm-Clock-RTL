@@ -46,11 +46,14 @@ Handles four-digit display output.
 Top-level module integrating all system components.
 
 ---
+## RTL Schematic
+
+![RTL Schematic](waveform/rtl_schematic.pdf)
 
 ## Verification
 
 Each module is verified using dedicated **Verilog testbenches**.
-
+---
 ### Module Testbenches
 
 - `timegen_tb.v` – verifies second and minute pulse generation  
@@ -120,7 +123,7 @@ gtkwave alarm_clock_top.vcd
 
 ### Target Device
 
-* Xilinx Artix-7 (`xc7a35tcpg236-1L`)
+* Xilinx Artix-7 (`xc7a35ticpg236-1L)`)
 
 ### Resource Utilization
 
@@ -136,7 +139,7 @@ The design occupies a small amount of FPGA resources, demonstrating an efficient
 
 ### Synthesis Summary
 
-![Synthesis Report](waveform/synthesis_summary.png)
+![Synthesis Report](waveform/synthesis_summary.pdf)
 
 ---
 

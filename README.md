@@ -145,6 +145,7 @@ The design occupies a small amount of FPGA resources, demonstrating an efficient
 * Verilog HDL
 * Icarus Verilog
 * GTKWave
+* AMD Vivado
 
 ---
 

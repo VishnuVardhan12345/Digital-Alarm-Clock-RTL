@@ -49,6 +49,7 @@ Top-level module integrating all system components.
 ## RTL Schematic
 
 ![RTL Schematic](waveform/rtl_schematic.pdf)
+---
 
 ## Verification
 
@@ -118,12 +119,12 @@ vvp sim
 ```bash
 gtkwave alarm_clock_top.vcd
 ```
-
+---
 ## FPGA Implementation Results
 
 ### Target Device
 
-* Xilinx Artix-7 (`xc7a35ticpg236-1L)`)
+* Xilinx Artix-7 (`xc7a35ticpg236-1L`)
 
 ### Resource Utilization
 
@@ -136,10 +137,6 @@ gtkwave alarm_clock_top.vcd
 | DSP             | 0           |
 
 The design occupies a small amount of FPGA resources, demonstrating an efficient RTL implementation suitable for low-cost FPGA devices.
-
-### Synthesis Summary
-
-![Synthesis Report](waveform/synthesis_summary.pdf)
 
 ---
 
@@ -180,9 +177,9 @@ Digital-Alarm-Clock-RTL
 ├── waveform
 │   ├── alarm_clock_top_waveform.png
 │   ├── fsm_waveform.png
-|   ├── keyreg_waveform.png
+│   ├── keyreg_waveform.png
 │   └── rtl_schematic.pdf
-|
+│
 └── README.md
 ```
 
